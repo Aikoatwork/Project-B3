@@ -1,0 +1,37 @@
+name: projectb3
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  url_launcher: ^6.3.1
+  url_launcher_web: ^2.3.3
+  logger: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  firebase_database: ^11.1.4
+  flutter_lints: ^4.0.0
+  cloud_firestore: ^5.4.4
+
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/images/1.jpg
+    - assets/images/2.jpg
+    - assets/images/3.jpg
+  # fonts:
+  # - family: Poppins
+  #   fonts:
+  #   - assets: assets/font/Poppin-Bold.ttf

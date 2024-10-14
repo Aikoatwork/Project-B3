@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "642466303589",
+    "firebase_url": "https://login-a69cc-default-rtdb.firebaseio.com",
+    "project_id": "login-a69cc",
+    "storage_bucket": "login-a69cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642466303589:android:e6b4baee7b97d9a36c008c",
+        "android_client_info": {
+          "package_name": "com.login.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuEQwRpQxpfSukXIXgsUWwNjFbN0l9bkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642466303589:android:8f3217ca35767ed56c008c",
+        "android_client_info": {
+          "package_name": "com.loginkan.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuEQwRpQxpfSukXIXgsUWwNjFbN0l9bkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
