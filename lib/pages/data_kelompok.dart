@@ -73,11 +73,12 @@ class _DataKelompokPageState extends State<DataKelompokPage> {
         alignment: Alignment.topCenter,
         child: _selectedIndex == 0
             ? SingleChildScrollView(
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
+                child: Wrap(
+                  spacing: 8.0,
+                  runSpacing: 8.0,
                   children: dataKelompok.map((data) {
                     return Container(
-                      width: 150,
+                      width: MediaQuery.of(context).size.width / 2.5,
                       padding: const EdgeInsets.all(8.0),
                       child: Card(
                         elevation: 10,
